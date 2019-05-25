@@ -1,0 +1,157 @@
+  * {
+    /*
+    - Talvez quieras agregar "border-box" para "box-sizing" para que el padding no afecte el ancho
+    - Resetear margin y padding
+   */
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+  }
+  .container1 {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+  }
+  #navbar {
+    background: black;
+    color: #fff;
+    overflow: auto;
+  }
+
+ #navbar a {
+   color: white;
+   font-family: cursive;
+ }
+
+ #navbar h1 {
+   float: left;
+   padding-top: 20px;
+ }
+
+ #navbar ul {
+   list-style: none;
+   float: right;
+ }
+
+ #navbar ul li{
+   float: left;
+ }
+
+ #navbar ul li a {
+   display: block;
+   padding: 20px;
+   text-align: center;
+ }
+
+ #navbar ul li a:hover,
+ #navbar ul li a.current {
+   border-color: blue;
+   background: white;
+   color: black;
+ }
+  body {
+    /*
+      -Background color #344a72
+    */
+    background-color: DimGray;
+  }
+  a {
+    /*
+    Links subrayados son feos :)
+   */
+   text-decoration: none;
+  }
+  #container {
+    /*
+    - Recuerda, margin: auto; en izquierda y derecha centrara el elemento
+    - Tal vez agregar un "max-width" ayude para que sea responsivo
+    - Puede que quieras agregar algo de padding
+    */
+    max-width: none;
+    margin:auto;
+    padding: 20px;
+  }
+  .form-wrap {
+    /*
+      Esta es el area blanca alrededor del formulario y cabecera, etc
+    */
+    background: white;
+    border: none;
+    width: 26%;
+    padding: 20px 20px;
+    margin: auto;
+    height: 500px;
+  }
+  .form-wrap h1,
+  .form-wrap p {
+    /*
+      Tal vez quieras centrar esto
+    */
+    text-align:center;
+    font-family: Arial;
+  }
+  .form-wrap .form-group {
+    /*
+      Cada label, input esta dentro de un .form-group
+    */
+  }
+  .form-wrap .form-group label {
+    /*
+      Label debería cambiar a un elemento en bloque (d****y)(block)
+    */
+    display: block;
+  }
+  .form-wrap .form-group input {
+    /*
+      Inputs deberían tener el ancho del 100% a traves del .form-wrap y algo de padding
+    */
+    width: 100%;
+    padding: 5px;
+  }
+  .form-wrap button {
+    /*
+      Button debería hacer lo mismo que los input 100% y mostrarse en bloque(block)
+      Background color para el button es #49c1a2
+    */
+    background-color: #49c1a2;
+    display:block;
+    width:100%;
+    margin: auto;
+    padding: 05px;
+
+  }
+  .form-wrap button:hover {
+    /*
+      Hover(pasar por encima) background color para el button es #37a08e
+    */
+    background-color: #37a08e;
+  }
+  .form-wrap .bottom-text {
+    /*
+      El texto del fondo es más pequeño
+    */
+    font-size: 12px;
+    padding: 20px;
+  }
+  footer {
+    /*
+    Debería centrarse
+    Should be centered
+   */
+   text-align: center;
+  }
+  footer a {
+    /*
+      El color de sus links #49c1a2
+    */
+    color: #49c1a2;
+  }
+  .footer1{
+    position: relative;
+    text-align: center;
+    background: darkred;
+    color: black;
+    padding: 15px;
+    top: 52px;
+  }

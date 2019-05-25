@@ -74,7 +74,7 @@ p {
   background: lightgrey;
 }
 #welcome {
-  background: url("./imagenes/background1.jpg") no-repeat center center/cover;
+  background:("./imagenes/background1.jpg") no-repeat center center/cover;
   height: 800px;
 }
 #welcome .welcome-content {

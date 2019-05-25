@@ -74,7 +74,7 @@ p {
   background: lightgrey;
 }
 #welcome {
-  background:("./imagenes/background1.jpg") no-repeat center center/cover;
+  background: url("./imagenes/background1.jpg") no-repeat center center/cover;
   height: 800px;
 }
 #welcome .welcome-content {
@@ -118,7 +118,7 @@ p {
 #home-info .img1 {
   float: right;
   width: 50%;
-  background: url('imagenes/background2.png') no-repeat center center/cover;
+  background: url('.imagenes/background2.png') no-repeat center center/cover;
   min-height: 100%;
 }
 #home-info .info-content {
